@@ -28,7 +28,7 @@ Or you can use the shortcode [pssc_facebook] in the post you want to count share
 * [pssc_delicious]
 * [pssc_stumble]
 * [pssc_gplus]
-* [pssc_allcount]
+* [pssc_all]
 
 
 = Available Functions =
@@ -40,6 +40,10 @@ Or you can use the shortcode [pssc_facebook] in the post you want to count share
 * pssc_stumble()
 * pssc_gplus()
 * pssc_all()
+
+= Change Log =
+
+Version 1.1: Fixed a mistake with pssc_all shortcode
 
 == Installation ==
 1. Go to your admin area and select Plugins -> Add new from the menu.
