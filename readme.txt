@@ -28,7 +28,7 @@ Or you can use the shortcode [pssc_facebook] in the post you want to count share
 * [pssc_delicious]
 * [pssc_stumble]
 * [pssc_gplus]
-* [pssc_all]
+* [pssc_allcount]
 
 
 = Available Functions =
