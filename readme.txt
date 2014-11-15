@@ -4,7 +4,7 @@ Tags: social, shares, count, shortcodes, Facebook, Twitter, Google Plus, Pintere
 Donate link: http://bishoy.me/donate
 Requires at least: 2.5.0
 Tested up to: 4.0
-Stable tag: trunk
+Stable tag: 1.2
 License: GPL2
 License URI: http://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses
 
@@ -15,7 +15,7 @@ Plugin that gives you shortcodes and PHP functions to count posts/pages shares o
 You can use this plugin to get the number of shares for a given post by ID.
 
 = How to use =
-To count for example how many times the post or page has been shared on Facebook use the function pssc_facebook() in the loop or pssc_facebook( $post_id ) anywhere. This function will return the count integer for example 5 or 0.
+To count for example how many times the post or page has been shared on Facebook use the function echo pssc_facebook() in the loop or echo pssc_facebook( $post_id ) anywhere. This function will return the count integer for example 5 or 0.
 
 Or you can use the shortcode [pssc_facebook] in the post you want to count shares for or [pssc_facebook post_id=""] for a specific post by ID.
 
@@ -41,9 +41,12 @@ Or you can use the shortcode [pssc_facebook] in the post you want to count share
 * pssc_gplus()
 * pssc_all()
 
+Note that PHP functions needs to be echoed.
+
 = Change Log =
 
-Version 1.1: Fixed a mistake with pssc_all shortcode
+* Version 1.2: Fixed a bug with functions without post ID usage.
+* Version 1.1: Fixed a bug with pssc_all shortcode
 
 == Installation ==
 1. Go to your admin area and select Plugins -> Add new from the menu.
