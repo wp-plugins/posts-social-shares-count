@@ -45,8 +45,8 @@ Note that PHP functions needs to be echoed.
 
 = Change Log =
 
-* Version 1.2: Fixed a mistake with functions without post ID usage.
-* Version 1.1: Fixed a mistake with pssc_all shortcode
+* Version 1.2: Fixed a bug with functions without post ID usage.
+* Version 1.1: Fixed a bug with pssc_all shortcode
 
 == Installation ==
 1. Go to your admin area and select Plugins -> Add new from the menu.
