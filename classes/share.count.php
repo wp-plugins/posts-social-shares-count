@@ -142,8 +142,8 @@ class PsscShareCount {
 		$st = $this->pssc_stumble();
 		$pi = $this->pssc_pinterest();
 
-		$count += $tw + $fb + $li + $gp + $dl + $st + $pi;
+		$count = $tw + $fb + $li + $gp + $dl + $st + $pi;
 
-		return (int) $count;
+		return $count;
 	}
 }

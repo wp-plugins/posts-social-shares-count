@@ -14,7 +14,7 @@
  * @param  integer $post_id post ID
  * @return integer|string count
  */
-function pssc_get_count( $fuction, $post_id = 0 ) {
+function pssc_get_count( $function, $post_id = 0 ) {
 	$cache = array();
 	$cache = get_transient( 'pssc_counts' );
 	
@@ -39,6 +39,7 @@ function pssc_get_count( $fuction, $post_id = 0 ) {
 
 		set_transient( 'pssc_counts', $cache, HOUR_IN_SECONDS );
 	}
+
 	return $count;
 }
 
