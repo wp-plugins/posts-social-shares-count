@@ -49,6 +49,9 @@ Note that PHP functions needs to be echoed.
 * Version 1.2: Fixed a bug with functions without post ID usage.
 * Version 1.1: Fixed a bug with pssc_all shortcode
 
+== Screenshots ==
+1. Shares count in admin edit post view
+
 == Installation ==
 1. Go to your admin area and select Plugins -> Add new from the menu.
 2. Search for \"Posts Social Shares Count\".
