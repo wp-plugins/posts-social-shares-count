@@ -86,6 +86,20 @@ if ( ! class_exists( 'BaPSSC' ) ) {
 			add_shortcode( 'pssc_stumble', array( $this, 'st_shares_count' ) );
 			add_shortcode( 'pssc_gplus', array( $this, 'gp_shares_count' ) );
 			add_shortcode( 'pssc_all', array( $this, 'all_count' ) );
+
+			add_action( 'post_submitbox_misc_actions', array( $this, 'admin_edit_shares' ) );
+		}
+
+		public function admin_edit_shares() {
+			if ( empty( $_GET['post'] ) )
+				return;
+			?>
+			<div class="misc-pub-section curshares misc-pub-curshares">
+				<span id="timesshared">
+					<span class="dashicons dashicons-share" style="color: #888;"></span> <?php _e( 'Shares' ); ?> <b><?php echo pssc_all( $_GET['post'] ); ?></b>
+				</span>
+			</div>
+			<?php
 		}
 
 		/**
