@@ -96,7 +96,7 @@ if ( ! class_exists( 'BaPSSC' ) ) {
 			?>
 			<div class="misc-pub-section curshares misc-pub-curshares">
 				<span id="timesshared">
-					<span class="dashicons dashicons-share" style="color: #888;"></span> <?php _e( 'Shares' ); ?> <b><?php echo pssc_all( $_GET['post'] ); ?></b>
+					<span class="dashicons dashicons-share" style="color: #888;"></span> <?php _e( 'Shares' ); ?>: <b><?php echo pssc_all( $_GET['post'] ); ?></b>
 				</span>
 			</div>
 			<?php
