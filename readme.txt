@@ -45,7 +45,7 @@ Note that PHP functions needs to be echoed.
 
 = Change Log =
 
-* Version 1.3: Added caching support and improved performance.
+* Version 1.3: Added caching support and Added total shares count to post edit page.
 * Version 1.2: Fixed a bug with functions without post ID usage.
 * Version 1.1: Fixed a bug with pssc_all shortcode
 
@@ -60,6 +60,7 @@ Note that PHP functions needs to be echoed.
 = 1.3 =
 * Added Caching support
 * Improved performance
+* Added total shares count to post edit page
 
 = 1.2 =
 * Fixed a bug with functions without post ID usage.
