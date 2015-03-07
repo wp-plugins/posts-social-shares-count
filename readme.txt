@@ -4,7 +4,7 @@ Tags: social, shares, count, shortcodes, Facebook, Twitter, Google Plus, Pintere
 Donate link: http://bishoy.me/donate
 Requires at least: 2.5.0
 Tested up to: 4.0
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPL2
 License URI: http://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses
 
@@ -45,6 +45,7 @@ Note that PHP functions needs to be echoed.
 
 = Change Log =
 
+* Version 1.3: Added caching support and improved performance.
 * Version 1.2: Fixed a bug with functions without post ID usage.
 * Version 1.1: Fixed a bug with pssc_all shortcode
 
@@ -53,3 +54,18 @@ Note that PHP functions needs to be echoed.
 2. Search for \"Posts Social Shares Count\".
 3. Click install.
 4. Click activate.
+
+== ChangeLog ==
+
+= 1.3 =
+* Added Caching support
+* Improved performance
+
+= 1.2 =
+* Fixed a bug with functions without post ID usage.
+
+= 1.1 =
+* Fixed a bug with [pssc_all] shortcode
+
+= 1.0 =
+* Initial Plugin Release
